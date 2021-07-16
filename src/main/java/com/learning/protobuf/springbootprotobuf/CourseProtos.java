@@ -39,12 +39,12 @@ public final class CourseProtos {
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
-    java.util.List<CourseProtos.Student>
+    java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student> 
         getStudentList();
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
-    CourseProtos.Student getStudent(int index);
+    com.learning.protobuf.springbootprotobuf.CourseProtos.Student getStudent(int index);
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
@@ -52,12 +52,12 @@ public final class CourseProtos {
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
-    java.util.List<? extends CourseProtos.StudentOrBuilder>
+    java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder> 
         getStudentOrBuilderList();
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
-    CourseProtos.StudentOrBuilder getStudentOrBuilder(
+    com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder getStudentOrBuilder(
         int index);
   }
   /**
@@ -121,11 +121,11 @@ public final class CourseProtos {
             }
             case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                student_ = new java.util.ArrayList<CourseProtos.Student>();
+                student_ = new java.util.ArrayList<com.learning.protobuf.springbootprotobuf.CourseProtos.Student>();
                 mutable_bitField0_ |= 0x00000001;
               }
               student_.add(
-                  input.readMessage(CourseProtos.Student.parser(), extensionRegistry));
+                  input.readMessage(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -152,15 +152,15 @@ public final class CourseProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
+      return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return CourseProtos.internal_static_com_learning_protobuf_Course_fieldAccessorTable
+      return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Course_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              CourseProtos.Course.class, CourseProtos.Course.Builder.class);
+              com.learning.protobuf.springbootprotobuf.CourseProtos.Course.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Course.Builder.class);
     }
 
     public static final int ID_FIELD_NUMBER = 1;
@@ -213,19 +213,19 @@ public final class CourseProtos {
     }
 
     public static final int STUDENT_FIELD_NUMBER = 3;
-    private java.util.List<CourseProtos.Student> student_;
+    private java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student> student_;
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<CourseProtos.Student> getStudentList() {
+    public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student> getStudentList() {
       return student_;
     }
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends CourseProtos.StudentOrBuilder>
+    public java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder> 
         getStudentOrBuilderList() {
       return student_;
     }
@@ -240,14 +240,14 @@ public final class CourseProtos {
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
     @java.lang.Override
-    public CourseProtos.Student getStudent(int index) {
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.Student getStudent(int index) {
       return student_.get(index);
     }
     /**
      * <code>repeated .com.learning.protobuf.Student student = 3;</code>
      */
     @java.lang.Override
-    public CourseProtos.StudentOrBuilder getStudentOrBuilder(
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder getStudentOrBuilder(
         int index) {
       return student_.get(index);
     }
@@ -305,10 +305,10 @@ public final class CourseProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof CourseProtos.Course)) {
+      if (!(obj instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Course)) {
         return super.equals(obj);
       }
-      CourseProtos.Course other = (CourseProtos.Course) obj;
+      com.learning.protobuf.springbootprotobuf.CourseProtos.Course other = (com.learning.protobuf.springbootprotobuf.CourseProtos.Course) obj;
 
       if (getId()
           != other.getId()) return false;
@@ -340,69 +340,69 @@ public final class CourseProtos {
       return hash;
     }
 
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Course parseFrom(byte[] data)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Course parseFrom(java.io.InputStream input)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static CourseProtos.Course parseDelimitedFrom(java.io.InputStream input)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static CourseProtos.Course parseDelimitedFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static CourseProtos.Course parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -415,7 +415,7 @@ public final class CourseProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(CourseProtos.Course prototype) {
+    public static Builder newBuilder(com.learning.protobuf.springbootprotobuf.CourseProtos.Course prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -436,18 +436,18 @@ public final class CourseProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.learning.protobuf.Course)
-        CourseProtos.CourseOrBuilder {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.CourseOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return CourseProtos.internal_static_com_learning_protobuf_Course_fieldAccessorTable
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Course_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                CourseProtos.Course.class, CourseProtos.Course.Builder.class);
+                com.learning.protobuf.springbootprotobuf.CourseProtos.Course.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Course.Builder.class);
       }
 
       // Construct using com.learning.protobuf.springbootprotobuf.CourseProtos.Course.newBuilder()
@@ -485,17 +485,17 @@ public final class CourseProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Course_descriptor;
       }
 
       @java.lang.Override
-      public CourseProtos.Course getDefaultInstanceForType() {
-        return CourseProtos.Course.getDefaultInstance();
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Course getDefaultInstanceForType() {
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.Course.getDefaultInstance();
       }
 
       @java.lang.Override
-      public CourseProtos.Course build() {
-        CourseProtos.Course result = buildPartial();
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Course build() {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Course result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -503,8 +503,8 @@ public final class CourseProtos {
       }
 
       @java.lang.Override
-      public CourseProtos.Course buildPartial() {
-        CourseProtos.Course result = new CourseProtos.Course(this);
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Course buildPartial() {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Course result = new com.learning.protobuf.springbootprotobuf.CourseProtos.Course(this);
         int from_bitField0_ = bitField0_;
         result.id_ = id_;
         result.courseName_ = courseName_;
@@ -555,16 +555,16 @@ public final class CourseProtos {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof CourseProtos.Course) {
-          return mergeFrom((CourseProtos.Course)other);
+        if (other instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Course) {
+          return mergeFrom((com.learning.protobuf.springbootprotobuf.CourseProtos.Course)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(CourseProtos.Course other) {
-        if (other == CourseProtos.Course.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.learning.protobuf.springbootprotobuf.CourseProtos.Course other) {
+        if (other == com.learning.protobuf.springbootprotobuf.CourseProtos.Course.getDefaultInstance()) return this;
         if (other.getId() != 0) {
           setId(other.getId());
         }
@@ -613,11 +613,11 @@ public final class CourseProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        CourseProtos.Course parsedMessage = null;
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Course parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (CourseProtos.Course) e.getUnfinishedMessage();
+          parsedMessage = (com.learning.protobuf.springbootprotobuf.CourseProtos.Course) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -735,22 +735,22 @@ public final class CourseProtos {
         return this;
       }
 
-      private java.util.List<CourseProtos.Student> student_ =
+      private java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student> student_ =
         java.util.Collections.emptyList();
       private void ensureStudentIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          student_ = new java.util.ArrayList<CourseProtos.Student>(student_);
+          student_ = new java.util.ArrayList<com.learning.protobuf.springbootprotobuf.CourseProtos.Student>(student_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          CourseProtos.Student, CourseProtos.Student.Builder, CourseProtos.StudentOrBuilder> studentBuilder_;
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder> studentBuilder_;
 
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public java.util.List<CourseProtos.Student> getStudentList() {
+      public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student> getStudentList() {
         if (studentBuilder_ == null) {
           return java.util.Collections.unmodifiableList(student_);
         } else {
@@ -770,7 +770,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public CourseProtos.Student getStudent(int index) {
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student getStudent(int index) {
         if (studentBuilder_ == null) {
           return student_.get(index);
         } else {
@@ -781,7 +781,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder setStudent(
-          int index, CourseProtos.Student value) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student value) {
         if (studentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -798,7 +798,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder setStudent(
-          int index, CourseProtos.Student.Builder builderForValue) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder builderForValue) {
         if (studentBuilder_ == null) {
           ensureStudentIsMutable();
           student_.set(index, builderForValue.build());
@@ -811,7 +811,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public Builder addStudent(CourseProtos.Student value) {
+      public Builder addStudent(com.learning.protobuf.springbootprotobuf.CourseProtos.Student value) {
         if (studentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -828,7 +828,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder addStudent(
-          int index, CourseProtos.Student value) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student value) {
         if (studentBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -845,7 +845,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder addStudent(
-          CourseProtos.Student.Builder builderForValue) {
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder builderForValue) {
         if (studentBuilder_ == null) {
           ensureStudentIsMutable();
           student_.add(builderForValue.build());
@@ -859,7 +859,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder addStudent(
-          int index, CourseProtos.Student.Builder builderForValue) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder builderForValue) {
         if (studentBuilder_ == null) {
           ensureStudentIsMutable();
           student_.add(index, builderForValue.build());
@@ -873,7 +873,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
       public Builder addAllStudent(
-          java.lang.Iterable<? extends CourseProtos.Student> values) {
+          java.lang.Iterable<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.Student> values) {
         if (studentBuilder_ == null) {
           ensureStudentIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -913,14 +913,14 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public CourseProtos.Student.Builder getStudentBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder getStudentBuilder(
           int index) {
         return getStudentFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public CourseProtos.StudentOrBuilder getStudentOrBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder getStudentOrBuilder(
           int index) {
         if (studentBuilder_ == null) {
           return student_.get(index);  } else {
@@ -930,7 +930,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public java.util.List<? extends CourseProtos.StudentOrBuilder>
+      public java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder> 
            getStudentOrBuilderList() {
         if (studentBuilder_ != null) {
           return studentBuilder_.getMessageOrBuilderList();
@@ -941,31 +941,31 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public CourseProtos.Student.Builder addStudentBuilder() {
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder addStudentBuilder() {
         return getStudentFieldBuilder().addBuilder(
-            CourseProtos.Student.getDefaultInstance());
+            com.learning.protobuf.springbootprotobuf.CourseProtos.Student.getDefaultInstance());
       }
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public CourseProtos.Student.Builder addStudentBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder addStudentBuilder(
           int index) {
         return getStudentFieldBuilder().addBuilder(
-            index, CourseProtos.Student.getDefaultInstance());
+            index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.getDefaultInstance());
       }
       /**
        * <code>repeated .com.learning.protobuf.Student student = 3;</code>
        */
-      public java.util.List<CourseProtos.Student.Builder>
+      public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder> 
            getStudentBuilderList() {
         return getStudentFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          CourseProtos.Student, CourseProtos.Student.Builder, CourseProtos.StudentOrBuilder>
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder> 
           getStudentFieldBuilder() {
         if (studentBuilder_ == null) {
           studentBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              CourseProtos.Student, CourseProtos.Student.Builder, CourseProtos.StudentOrBuilder>(
+              com.learning.protobuf.springbootprotobuf.CourseProtos.Student, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder>(
                   student_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -991,12 +991,12 @@ public final class CourseProtos {
     }
 
     // @@protoc_insertion_point(class_scope:com.learning.protobuf.Course)
-    private static final CourseProtos.Course DEFAULT_INSTANCE;
+    private static final com.learning.protobuf.springbootprotobuf.CourseProtos.Course DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new CourseProtos.Course();
+      DEFAULT_INSTANCE = new com.learning.protobuf.springbootprotobuf.CourseProtos.Course();
     }
 
-    public static CourseProtos.Course getDefaultInstance() {
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Course getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1021,7 +1021,7 @@ public final class CourseProtos {
     }
 
     @java.lang.Override
-    public CourseProtos.Course getDefaultInstanceForType() {
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.Course getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1076,12 +1076,12 @@ public final class CourseProtos {
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
-    java.util.List<CourseProtos.Student.PhoneNumber>
+    java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> 
         getPhoneList();
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
-    CourseProtos.Student.PhoneNumber getPhone(int index);
+    com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getPhone(int index);
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
@@ -1089,12 +1089,12 @@ public final class CourseProtos {
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
-    java.util.List<? extends CourseProtos.Student.PhoneNumberOrBuilder>
+    java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder> 
         getPhoneOrBuilderList();
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
-    CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
+    com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
         int index);
   }
   /**
@@ -1172,11 +1172,11 @@ public final class CourseProtos {
             }
             case 42: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                phone_ = new java.util.ArrayList<CourseProtos.Student.PhoneNumber>();
+                phone_ = new java.util.ArrayList<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber>();
                 mutable_bitField0_ |= 0x00000001;
               }
               phone_.add(
-                  input.readMessage(CourseProtos.Student.PhoneNumber.parser(), extensionRegistry));
+                  input.readMessage(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -1203,15 +1203,15 @@ public final class CourseProtos {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
+      return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return CourseProtos.internal_static_com_learning_protobuf_Student_fieldAccessorTable
+      return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              CourseProtos.Student.class, CourseProtos.Student.Builder.class);
+              com.learning.protobuf.springbootprotobuf.CourseProtos.Student.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder.class);
     }
 
     /**
@@ -1296,7 +1296,7 @@ public final class CourseProtos {
       }
       public static final com.google.protobuf.Descriptors.EnumDescriptor
           getDescriptor() {
-        return CourseProtos.Student.getDescriptor().getEnumTypes().get(0);
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.Student.getDescriptor().getEnumTypes().get(0);
       }
 
       private static final PhoneType[] VALUES = values();
@@ -1347,7 +1347,7 @@ public final class CourseProtos {
        * <code>.com.learning.protobuf.Student.PhoneType type = 2;</code>
        * @return The type.
        */
-      CourseProtos.Student.PhoneType getType();
+      com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType getType();
     }
     /**
      * Protobuf type {@code com.learning.protobuf.Student.PhoneNumber}
@@ -1429,15 +1429,15 @@ public final class CourseProtos {
       }
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_fieldAccessorTable
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                CourseProtos.Student.PhoneNumber.class, CourseProtos.Student.PhoneNumber.Builder.class);
+                com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder.class);
       }
 
       public static final int NUMBER_FIELD_NUMBER = 1;
@@ -1491,10 +1491,10 @@ public final class CourseProtos {
        * <code>.com.learning.protobuf.Student.PhoneType type = 2;</code>
        * @return The type.
        */
-      @java.lang.Override public CourseProtos.Student.PhoneType getType() {
+      @java.lang.Override public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType getType() {
         @SuppressWarnings("deprecation")
-        CourseProtos.Student.PhoneType result = CourseProtos.Student.PhoneType.valueOf(type_);
-        return result == null ? CourseProtos.Student.PhoneType.UNRECOGNIZED : result;
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType result = com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.valueOf(type_);
+        return result == null ? com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.UNRECOGNIZED : result;
       }
 
       private byte memoizedIsInitialized = -1;
@@ -1514,7 +1514,7 @@ public final class CourseProtos {
         if (!getNumberBytes().isEmpty()) {
           com.google.protobuf.GeneratedMessageV3.writeString(output, 1, number_);
         }
-        if (type_ != CourseProtos.Student.PhoneType.MOBILE.getNumber()) {
+        if (type_ != com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.MOBILE.getNumber()) {
           output.writeEnum(2, type_);
         }
         unknownFields.writeTo(output);
@@ -1529,7 +1529,7 @@ public final class CourseProtos {
         if (!getNumberBytes().isEmpty()) {
           size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, number_);
         }
-        if (type_ != CourseProtos.Student.PhoneType.MOBILE.getNumber()) {
+        if (type_ != com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.MOBILE.getNumber()) {
           size += com.google.protobuf.CodedOutputStream
             .computeEnumSize(2, type_);
         }
@@ -1543,10 +1543,10 @@ public final class CourseProtos {
         if (obj == this) {
          return true;
         }
-        if (!(obj instanceof CourseProtos.Student.PhoneNumber)) {
+        if (!(obj instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber)) {
           return super.equals(obj);
         }
-        CourseProtos.Student.PhoneNumber other = (CourseProtos.Student.PhoneNumber) obj;
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber other = (com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber) obj;
 
         if (!getNumber()
             .equals(other.getNumber())) return false;
@@ -1571,69 +1571,69 @@ public final class CourseProtos {
         return hash;
       }
 
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           java.nio.ByteBuffer data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           java.nio.ByteBuffer data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           com.google.protobuf.ByteString data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           com.google.protobuf.ByteString data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(byte[] data)
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(byte[] data)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           byte[] data,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
         return PARSER.parseFrom(data, extensionRegistry);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(java.io.InputStream input)
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input, extensionRegistry);
       }
-      public static CourseProtos.Student.PhoneNumber parseDelimitedFrom(java.io.InputStream input)
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseDelimitedFrom(java.io.InputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input);
       }
-      public static CourseProtos.Student.PhoneNumber parseDelimitedFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseDelimitedFrom(
           java.io.InputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           com.google.protobuf.CodedInputStream input)
           throws java.io.IOException {
         return com.google.protobuf.GeneratedMessageV3
             .parseWithIOException(PARSER, input);
       }
-      public static CourseProtos.Student.PhoneNumber parseFrom(
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parseFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
@@ -1646,7 +1646,7 @@ public final class CourseProtos {
       public static Builder newBuilder() {
         return DEFAULT_INSTANCE.toBuilder();
       }
-      public static Builder newBuilder(CourseProtos.Student.PhoneNumber prototype) {
+      public static Builder newBuilder(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber prototype) {
         return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
       }
       @java.lang.Override
@@ -1667,18 +1667,18 @@ public final class CourseProtos {
       public static final class Builder extends
           com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
           // @@protoc_insertion_point(builder_implements:com.learning.protobuf.Student.PhoneNumber)
-          CourseProtos.Student.PhoneNumberOrBuilder {
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder {
         public static final com.google.protobuf.Descriptors.Descriptor
             getDescriptor() {
-          return CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
+          return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
         }
 
         @java.lang.Override
         protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
             internalGetFieldAccessorTable() {
-          return CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_fieldAccessorTable
+          return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_fieldAccessorTable
               .ensureFieldAccessorsInitialized(
-                  CourseProtos.Student.PhoneNumber.class, CourseProtos.Student.PhoneNumber.Builder.class);
+                  com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder.class);
         }
 
         // Construct using com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.newBuilder()
@@ -1709,17 +1709,17 @@ public final class CourseProtos {
         @java.lang.Override
         public com.google.protobuf.Descriptors.Descriptor
             getDescriptorForType() {
-          return CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
+          return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_PhoneNumber_descriptor;
         }
 
         @java.lang.Override
-        public CourseProtos.Student.PhoneNumber getDefaultInstanceForType() {
-          return CourseProtos.Student.PhoneNumber.getDefaultInstance();
+        public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getDefaultInstanceForType() {
+          return com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.getDefaultInstance();
         }
 
         @java.lang.Override
-        public CourseProtos.Student.PhoneNumber build() {
-          CourseProtos.Student.PhoneNumber result = buildPartial();
+        public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber build() {
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber result = buildPartial();
           if (!result.isInitialized()) {
             throw newUninitializedMessageException(result);
           }
@@ -1727,8 +1727,8 @@ public final class CourseProtos {
         }
 
         @java.lang.Override
-        public CourseProtos.Student.PhoneNumber buildPartial() {
-          CourseProtos.Student.PhoneNumber result = new CourseProtos.Student.PhoneNumber(this);
+        public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber buildPartial() {
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber result = new com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber(this);
           result.number_ = number_;
           result.type_ = type_;
           onBuilt();
@@ -1769,16 +1769,16 @@ public final class CourseProtos {
         }
         @java.lang.Override
         public Builder mergeFrom(com.google.protobuf.Message other) {
-          if (other instanceof CourseProtos.Student.PhoneNumber) {
-            return mergeFrom((CourseProtos.Student.PhoneNumber)other);
+          if (other instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber) {
+            return mergeFrom((com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber)other);
           } else {
             super.mergeFrom(other);
             return this;
           }
         }
 
-        public Builder mergeFrom(CourseProtos.Student.PhoneNumber other) {
-          if (other == CourseProtos.Student.PhoneNumber.getDefaultInstance()) return this;
+        public Builder mergeFrom(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber other) {
+          if (other == com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.getDefaultInstance()) return this;
           if (!other.getNumber().isEmpty()) {
             number_ = other.number_;
             onChanged();
@@ -1801,11 +1801,11 @@ public final class CourseProtos {
             com.google.protobuf.CodedInputStream input,
             com.google.protobuf.ExtensionRegistryLite extensionRegistry)
             throws java.io.IOException {
-          CourseProtos.Student.PhoneNumber parsedMessage = null;
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber parsedMessage = null;
           try {
             parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
           } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-            parsedMessage = (CourseProtos.Student.PhoneNumber) e.getUnfinishedMessage();
+            parsedMessage = (com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber) e.getUnfinishedMessage();
             throw e.unwrapIOException();
           } finally {
             if (parsedMessage != null) {
@@ -1915,17 +1915,17 @@ public final class CourseProtos {
          * @return The type.
          */
         @java.lang.Override
-        public CourseProtos.Student.PhoneType getType() {
+        public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType getType() {
           @SuppressWarnings("deprecation")
-          CourseProtos.Student.PhoneType result = CourseProtos.Student.PhoneType.valueOf(type_);
-          return result == null ? CourseProtos.Student.PhoneType.UNRECOGNIZED : result;
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType result = com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.valueOf(type_);
+          return result == null ? com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType.UNRECOGNIZED : result;
         }
         /**
          * <code>.com.learning.protobuf.Student.PhoneType type = 2;</code>
          * @param value The type to set.
          * @return This builder for chaining.
          */
-        public Builder setType(CourseProtos.Student.PhoneType value) {
+        public Builder setType(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneType value) {
           if (value == null) {
             throw new NullPointerException();
           }
@@ -1961,12 +1961,12 @@ public final class CourseProtos {
       }
 
       // @@protoc_insertion_point(class_scope:com.learning.protobuf.Student.PhoneNumber)
-      private static final CourseProtos.Student.PhoneNumber DEFAULT_INSTANCE;
+      private static final com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber DEFAULT_INSTANCE;
       static {
-        DEFAULT_INSTANCE = new CourseProtos.Student.PhoneNumber();
+        DEFAULT_INSTANCE = new com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber();
       }
 
-      public static CourseProtos.Student.PhoneNumber getDefaultInstance() {
+      public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getDefaultInstance() {
         return DEFAULT_INSTANCE;
       }
 
@@ -1991,7 +1991,7 @@ public final class CourseProtos {
       }
 
       @java.lang.Override
-      public CourseProtos.Student.PhoneNumber getDefaultInstanceForType() {
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getDefaultInstanceForType() {
         return DEFAULT_INSTANCE;
       }
 
@@ -2123,19 +2123,19 @@ public final class CourseProtos {
     }
 
     public static final int PHONE_FIELD_NUMBER = 5;
-    private java.util.List<CourseProtos.Student.PhoneNumber> phone_;
+    private java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> phone_;
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<CourseProtos.Student.PhoneNumber> getPhoneList() {
+    public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> getPhoneList() {
       return phone_;
     }
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends CourseProtos.Student.PhoneNumberOrBuilder>
+    public java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder> 
         getPhoneOrBuilderList() {
       return phone_;
     }
@@ -2150,14 +2150,14 @@ public final class CourseProtos {
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
     @java.lang.Override
-    public CourseProtos.Student.PhoneNumber getPhone(int index) {
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getPhone(int index) {
       return phone_.get(index);
     }
     /**
      * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
      */
     @java.lang.Override
-    public CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
         int index) {
       return phone_.get(index);
     }
@@ -2227,10 +2227,10 @@ public final class CourseProtos {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof CourseProtos.Student)) {
+      if (!(obj instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Student)) {
         return super.equals(obj);
       }
-      CourseProtos.Student other = (CourseProtos.Student) obj;
+      com.learning.protobuf.springbootprotobuf.CourseProtos.Student other = (com.learning.protobuf.springbootprotobuf.CourseProtos.Student) obj;
 
       if (getId()
           != other.getId()) return false;
@@ -2270,69 +2270,69 @@ public final class CourseProtos {
       return hash;
     }
 
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Student parseFrom(byte[] data)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static CourseProtos.Student parseFrom(java.io.InputStream input)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static CourseProtos.Student parseDelimitedFrom(java.io.InputStream input)
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static CourseProtos.Student parseDelimitedFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static CourseProtos.Student parseFrom(
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -2345,7 +2345,7 @@ public final class CourseProtos {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(CourseProtos.Student prototype) {
+    public static Builder newBuilder(com.learning.protobuf.springbootprotobuf.CourseProtos.Student prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -2366,18 +2366,18 @@ public final class CourseProtos {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:com.learning.protobuf.Student)
-        CourseProtos.StudentOrBuilder {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.StudentOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return CourseProtos.internal_static_com_learning_protobuf_Student_fieldAccessorTable
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                CourseProtos.Student.class, CourseProtos.Student.Builder.class);
+                com.learning.protobuf.springbootprotobuf.CourseProtos.Student.class, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.Builder.class);
       }
 
       // Construct using com.learning.protobuf.springbootprotobuf.CourseProtos.Student.newBuilder()
@@ -2419,17 +2419,17 @@ public final class CourseProtos {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.internal_static_com_learning_protobuf_Student_descriptor;
       }
 
       @java.lang.Override
-      public CourseProtos.Student getDefaultInstanceForType() {
-        return CourseProtos.Student.getDefaultInstance();
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student getDefaultInstanceForType() {
+        return com.learning.protobuf.springbootprotobuf.CourseProtos.Student.getDefaultInstance();
       }
 
       @java.lang.Override
-      public CourseProtos.Student build() {
-        CourseProtos.Student result = buildPartial();
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student build() {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Student result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -2437,8 +2437,8 @@ public final class CourseProtos {
       }
 
       @java.lang.Override
-      public CourseProtos.Student buildPartial() {
-        CourseProtos.Student result = new CourseProtos.Student(this);
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student buildPartial() {
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Student result = new com.learning.protobuf.springbootprotobuf.CourseProtos.Student(this);
         int from_bitField0_ = bitField0_;
         result.id_ = id_;
         result.firstName_ = firstName_;
@@ -2491,16 +2491,16 @@ public final class CourseProtos {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof CourseProtos.Student) {
-          return mergeFrom((CourseProtos.Student)other);
+        if (other instanceof com.learning.protobuf.springbootprotobuf.CourseProtos.Student) {
+          return mergeFrom((com.learning.protobuf.springbootprotobuf.CourseProtos.Student)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(CourseProtos.Student other) {
-        if (other == CourseProtos.Student.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.learning.protobuf.springbootprotobuf.CourseProtos.Student other) {
+        if (other == com.learning.protobuf.springbootprotobuf.CourseProtos.Student.getDefaultInstance()) return this;
         if (other.getId() != 0) {
           setId(other.getId());
         }
@@ -2557,11 +2557,11 @@ public final class CourseProtos {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        CourseProtos.Student parsedMessage = null;
+        com.learning.protobuf.springbootprotobuf.CourseProtos.Student parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (CourseProtos.Student) e.getUnfinishedMessage();
+          parsedMessage = (com.learning.protobuf.springbootprotobuf.CourseProtos.Student) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -2831,22 +2831,22 @@ public final class CourseProtos {
         return this;
       }
 
-      private java.util.List<CourseProtos.Student.PhoneNumber> phone_ =
+      private java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> phone_ =
         java.util.Collections.emptyList();
       private void ensurePhoneIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          phone_ = new java.util.ArrayList<CourseProtos.Student.PhoneNumber>(phone_);
+          phone_ = new java.util.ArrayList<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber>(phone_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          CourseProtos.Student.PhoneNumber, CourseProtos.Student.PhoneNumber.Builder, CourseProtos.Student.PhoneNumberOrBuilder> phoneBuilder_;
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder> phoneBuilder_;
 
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public java.util.List<CourseProtos.Student.PhoneNumber> getPhoneList() {
+      public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> getPhoneList() {
         if (phoneBuilder_ == null) {
           return java.util.Collections.unmodifiableList(phone_);
         } else {
@@ -2866,7 +2866,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public CourseProtos.Student.PhoneNumber getPhone(int index) {
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber getPhone(int index) {
         if (phoneBuilder_ == null) {
           return phone_.get(index);
         } else {
@@ -2877,7 +2877,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder setPhone(
-          int index, CourseProtos.Student.PhoneNumber value) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber value) {
         if (phoneBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2894,7 +2894,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder setPhone(
-          int index, CourseProtos.Student.PhoneNumber.Builder builderForValue) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder builderForValue) {
         if (phoneBuilder_ == null) {
           ensurePhoneIsMutable();
           phone_.set(index, builderForValue.build());
@@ -2907,7 +2907,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public Builder addPhone(CourseProtos.Student.PhoneNumber value) {
+      public Builder addPhone(com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber value) {
         if (phoneBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2924,7 +2924,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder addPhone(
-          int index, CourseProtos.Student.PhoneNumber value) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber value) {
         if (phoneBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -2941,7 +2941,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder addPhone(
-          CourseProtos.Student.PhoneNumber.Builder builderForValue) {
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder builderForValue) {
         if (phoneBuilder_ == null) {
           ensurePhoneIsMutable();
           phone_.add(builderForValue.build());
@@ -2955,7 +2955,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder addPhone(
-          int index, CourseProtos.Student.PhoneNumber.Builder builderForValue) {
+          int index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder builderForValue) {
         if (phoneBuilder_ == null) {
           ensurePhoneIsMutable();
           phone_.add(index, builderForValue.build());
@@ -2969,7 +2969,7 @@ public final class CourseProtos {
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
       public Builder addAllPhone(
-          java.lang.Iterable<? extends CourseProtos.Student.PhoneNumber> values) {
+          java.lang.Iterable<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber> values) {
         if (phoneBuilder_ == null) {
           ensurePhoneIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -3009,14 +3009,14 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public CourseProtos.Student.PhoneNumber.Builder getPhoneBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder getPhoneBuilder(
           int index) {
         return getPhoneFieldBuilder().getBuilder(index);
       }
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder getPhoneOrBuilder(
           int index) {
         if (phoneBuilder_ == null) {
           return phone_.get(index);  } else {
@@ -3026,7 +3026,7 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public java.util.List<? extends CourseProtos.Student.PhoneNumberOrBuilder>
+      public java.util.List<? extends com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder> 
            getPhoneOrBuilderList() {
         if (phoneBuilder_ != null) {
           return phoneBuilder_.getMessageOrBuilderList();
@@ -3037,31 +3037,31 @@ public final class CourseProtos {
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public CourseProtos.Student.PhoneNumber.Builder addPhoneBuilder() {
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder addPhoneBuilder() {
         return getPhoneFieldBuilder().addBuilder(
-            CourseProtos.Student.PhoneNumber.getDefaultInstance());
+            com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.getDefaultInstance());
       }
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public CourseProtos.Student.PhoneNumber.Builder addPhoneBuilder(
+      public com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder addPhoneBuilder(
           int index) {
         return getPhoneFieldBuilder().addBuilder(
-            index, CourseProtos.Student.PhoneNumber.getDefaultInstance());
+            index, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.getDefaultInstance());
       }
       /**
        * <code>repeated .com.learning.protobuf.Student.PhoneNumber phone = 5;</code>
        */
-      public java.util.List<CourseProtos.Student.PhoneNumber.Builder>
+      public java.util.List<com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder> 
            getPhoneBuilderList() {
         return getPhoneFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          CourseProtos.Student.PhoneNumber, CourseProtos.Student.PhoneNumber.Builder, CourseProtos.Student.PhoneNumberOrBuilder>
+          com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder> 
           getPhoneFieldBuilder() {
         if (phoneBuilder_ == null) {
           phoneBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              CourseProtos.Student.PhoneNumber, CourseProtos.Student.PhoneNumber.Builder, CourseProtos.Student.PhoneNumberOrBuilder>(
+              com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumber.Builder, com.learning.protobuf.springbootprotobuf.CourseProtos.Student.PhoneNumberOrBuilder>(
                   phone_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -3087,12 +3087,12 @@ public final class CourseProtos {
     }
 
     // @@protoc_insertion_point(class_scope:com.learning.protobuf.Student)
-    private static final CourseProtos.Student DEFAULT_INSTANCE;
+    private static final com.learning.protobuf.springbootprotobuf.CourseProtos.Student DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new CourseProtos.Student();
+      DEFAULT_INSTANCE = new com.learning.protobuf.springbootprotobuf.CourseProtos.Student();
     }
 
-    public static CourseProtos.Student getDefaultInstance() {
+    public static com.learning.protobuf.springbootprotobuf.CourseProtos.Student getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3117,7 +3117,7 @@ public final class CourseProtos {
     }
 
     @java.lang.Override
-    public CourseProtos.Student getDefaultInstanceForType() {
+    public com.learning.protobuf.springbootprotobuf.CourseProtos.Student getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -3156,8 +3156,9 @@ public final class CourseProtos {
       "otobuf.Student.PhoneNumber\032U\n\013PhoneNumbe" +
       "r\022\016\n\006number\030\001 \001(\t\0226\n\004type\030\002 \001(\0162(.com.le" +
       "arning.protobuf.Student.PhoneType\"%\n\tPho" +
-      "neType\022\n\n\006MOBILE\020\000\022\014\n\010LANDLINE\020\001B%\n\025com." +
-      "learning.protobufB\014CourseProtosb\006proto3"
+      "neType\022\n\n\006MOBILE\020\000\022\014\n\010LANDLINE\020\001B8\n(com." +
+      "learning.protobuf.springbootprotobufB\014Co" +
+      "urseProtosb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

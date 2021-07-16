@@ -1,5 +1,5 @@
 syntax = "proto3";
-package com.learning.protobuf.springbootprotobuf;
+package com.learning.protobuf;
 
 option java_package = "com.learning.protobuf.springbootprotobuf";
 option java_outer_classname = "CourseProtos";
